@@ -1,0 +1,36 @@
+tr,
+td {
+  border: 1px solid black;
+  font-size: 20px;
+  background-color: aqua;
+  border-radius: 8px;
+}
+
+body {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.names {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(0, 0, 200);
+}
+
+a:focus {
+  color: blue;
+}
+
+.start-flex{
+    display: flex;
+    justify-content: left;
+}
